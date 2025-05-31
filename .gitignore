@@ -1,30 +1,53 @@
-# Output directories
-output/
-test_output/
-output_with_llm/
-output_no_llm/
-test_*/
+# Python virtual environment
+mineru_env/
+venv/
+env/
+ENV/
 
-# Model files (too large)
-*.pth
-*.pt
-*.onnx
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+
+# Test outputs
+test_output/
+test_output2/
+final_test/
+test_ollama_output/
+outputs/
+
+# Model files
 models/
+*.pth
+*.onnx
+*.bin
 
 # Temporary files
-*.log
 *.tmp
-.ollama/
-__pycache__/
-*.pyc
-
-# Test PDFs and outputs
-*.pdf
-# *.md  # Commented out to allow README files
-images/
-
-# Config with potential keys
-magic-pdf.json.backup
-
-# System files
+*.bak
+*.backup
+*~
 .DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+logs/
+
+# Config backups
+config/*.backup
+config/*.bak
+
+# Large files
+*.pdf
+*.zip
+*.tar.gz
+
+# Keep example files
+\!small_ocr.pdf

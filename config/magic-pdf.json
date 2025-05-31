@@ -1,0 +1,24 @@
+{
+  "models-dir": "/tmp/models",
+  "device-mode": "cuda",
+  "llm-aided-config": {
+    "formula_aided": {
+      "api_key": "not-needed",
+      "base_url": "http://127.0.0.1:11434/v1",
+      "model": "qwen2.5:7b-instruct-q4_K_M",
+      "enable": true
+    },
+    "text_aided": {
+      "api_key": "not-needed",
+      "base_url": "http://127.0.0.1:11434/v1",
+      "model": "qwen2.5:7b-instruct-q4_K_M",
+      "enable": true
+    },
+    "title_aided": {
+      "api_key": "not-needed",
+      "base_url": "http://127.0.0.1:11434/v1",
+      "model": "qwen2.5:7b-instruct-q4_K_M",
+      "enable": true
+    }
+  }
+}
