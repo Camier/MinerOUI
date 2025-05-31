@@ -1,0 +1,30 @@
+# Output directories
+output/
+test_output/
+output_with_llm/
+output_no_llm/
+test_*/
+
+# Model files (too large)
+*.pth
+*.pt
+*.onnx
+models/
+
+# Temporary files
+*.log
+*.tmp
+.ollama/
+__pycache__/
+*.pyc
+
+# Test PDFs and outputs
+*.pdf
+# *.md  # Commented out to allow README files
+images/
+
+# Config with potential keys
+magic-pdf.json.backup
+
+# System files
+.DS_Store

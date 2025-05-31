@@ -1,0 +1,17 @@
+OLLAMA STATUS REPORT
+===================
+Date: 2025-05-31 09:20 UTC
+
+Fresh Install Results:
+- Version: 0.9.0 (upgraded from 0.6.7)
+- Service: Running correctly
+- Port: 11434 listening
+- API: Still unresponsive (WSL2 issue persists)
+
+Issue: WSL2 networking preventing HTTP connections
+This is a known WSL2 issue that requires one of:
+1. WSL restart from Windows: wsl --shutdown
+2. Running Ollama in Docker
+3. Installing Ollama on Windows host
+
+MinerU Status: Fully functional except LLM enhancements
